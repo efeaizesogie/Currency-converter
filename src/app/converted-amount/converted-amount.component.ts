@@ -2,6 +2,7 @@
 
 import { Component, Input } from "@angular/core";
 import { CurrencyService } from "../currency.service";
+import { CurrencyInputComponent } from "../currency-input/currency-input.component";
 
 @Component({
   selector: "app-converted-amount",

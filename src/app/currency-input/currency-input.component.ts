@@ -16,6 +16,7 @@ export class CurrencyInputComponent {
   currencyData: any;
   result: number = 0;
   currency: string = "";
+  static fromCurrency: any;
 
   constructor(private currencyService: CurrencyService) {}
 
